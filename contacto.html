@@ -15,10 +15,10 @@
                     <a href="index.html">Inicio</a>
                 </li>
                 <li>
-                    <a href="categorias.html">Categorias</a>
+                    <a href="pilotos.html">Nuestros Pilotos</a>
                 </li>
                 <li>
-                    <a href="clases.html">Clases</a>
+                    <a href="autos.html">Nuestros Vehiculos</a>
                 </li>
                 <li>
                     <a href="contacto.html">Contacto</a>
@@ -30,6 +30,35 @@
                 </a>            
         </nav>
     </header>
+    <main>
+        <h2>¿Que pensas de nosotros? ¡Dejanos tu comentario!</h2>
+
+        <form action="/procesar_formulario" method="post">
+    
+            <!-- Campo de texto -->
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <!-- Campo de correo electrónico -->
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+    
+            <!-- Campo de contraseña -->
+            <label for="text"></label>
+            <input type="text" id="texto" name="comentario" required>
+    
+            <!-- Botón de envío -->
+            <button type="submit">Enviar</button>
+    
+        </form>
+        <!--Pie de pagina-->
+        <footer>            
+            <div class="maps">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13134.476326088847!2d-58.50994308118565!3d-34.61379256900881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9d7a9a164a5%3A0xfba3f9cf7b627c0b!2sChivilcoy%202178%2C%20C1417%20Monte%20Castro%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1697469630499!5m2!1ses!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+        </footer>
+        
+    </main>
     
 </body>
 </html>
