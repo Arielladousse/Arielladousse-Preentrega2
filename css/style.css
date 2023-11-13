@@ -1,3 +1,4 @@
+/* Index */
 * {
   margin: 0;
   padding: 0;
@@ -77,6 +78,53 @@
   position: absolute;
   bottom: 25px;
   right: 25px;
+}
+
+/*Pilotos*/
+h1 {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  position: relative;
+}
+.container p {
+  margin-left: 280px;
+  bottom: 200px;
+  position: relative;
+}
+.container .tp {
+  position: relative;
+  bottom: 410px;
+}
+.container .turismo_nacional {
+  float: left;
+  width: 35%;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.container .turismo_pista {
+  width: 50%;
+  margin-left: 110px;
+  position: relative;
+  bottom: 200px;
+}
+.container .damiani, .container .carducci, .container .noceti, .container .zanazzi {
+  width: 270px;
+  position: relative;
+  top: 25px;
+}
+.container .fontana, .container .leston, .container .bodrato, .container .quattrocchi {
+  width: 257px;
+  position: relative;
+  bottom: 180px;
+}
+.container .col-md-6 {
+  position: relative;
+  left: 70px;
 }
 
 /*# sourceMappingURL=style.css.map */
