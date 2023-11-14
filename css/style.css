@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Index */
 * {
   margin: 0;
@@ -9,6 +10,19 @@
 
 .navegacion {
   background-color: red;
+  /*.menu-hamburguesa{
+      display: block;
+          position: absolute;
+          left: 20px;
+          top: 20px;
+  }
+  #check-menu:checked~.navegacion{
+      display: block;
+          background-color: red;
+  }
+  .navegacion{
+      display:none;
+  }*/
 }
 .navegacion .menu_container {
   display: inline-block;
@@ -61,18 +75,30 @@
   background-color: red;
   position: relative;
   top: 20px;
+  height: 200px;
 }
 .pie_de_pagina .logo_redes {
   width: 20px;
   padding: 0;
   margin-left: 100px;
-  margin-top: 0;
-}
-.pie_de_pagina p {
-  display: inline-block;
-  padding: 0;
-  margin-left: 10px;
   margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.pie_de_pagina ul {
+  list-style: none;
+  padding: 0;
+}
+.pie_de_pagina li {
+  display: flex;
+  padding: 0;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.pie_de_pagina a {
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+  margin-top: 7px;
 }
 .pie_de_pagina .maps {
   position: absolute;
@@ -125,6 +151,29 @@ h1 {
 .container .col-md-6 {
   position: relative;
   left: 70px;
+}
+
+.container .turismo_nacional_ {
+  float: left;
+  width: 35%;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.container .turismo_pista_ {
+  width: 25%;
+  margin-left: 800px;
+  position: relative;
+  bottom: 760px;
+}
+.container .yaris_juan, .container .focus_cardu, .container .focus_diego, .container .focus_iani {
+  width: 200px;
+  position: relative;
+  top: 200px;
+}
+.container .up_fontana, .container .up_leston, .container .corsa_bodrato, .container .peugeot_quattrocchi {
+  width: 200px;
+  position: relative;
+  left: 800px;
 }
 
 /*# sourceMappingURL=style.css.map */
